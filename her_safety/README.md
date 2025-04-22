@@ -1,16 +1,64 @@
-# her_safety
+# HerSafety  – Your Personal Safety Companion
 
-A new Flutter project.
+**HerSafety** is an all-in-one personal safety app tailored especially for women, providing rapid emergency support, real-time location sharing, and access to nearby emergency services. Built with  using **Flutter** and **Firebase**, it ensures users can stay safe, aware, and connected — anytime, anywhere.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+##  Core Features
 
-A few resources to get you started if this is your first Flutter project:
+###  Emergency SOS
+- Instantly send emergency messages with live location to your trusted contacts.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+###  Real-Time Location Tracking
+- Share your live location continuously during an emergency.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+###  One-Tap Emergency Calling
+- Call pre-saved emergency contacts in a single tap.
+- Auto-dial options for:
+  - 📞 **Police**
+  - 📞 **Women Helpline**
+  - 📞 **Custom Emergency Contacts**
+
+###  Volunteer Support
+- Register as a volunteer or get assistance from nearby users during distress.
+
+###  Nearby Safety Services
+- Locate and navigate to:
+  - 🧭 Police Stations
+  - 💊 Pharmacies
+  - 🏥 Hospitals
+
+###  Offline Safety
+- SMS-based alert system that works even without internet.
+
+---
+
+##  Tech Stack
+
+| Layer       | Tools Used                                |
+|-------------|--------------------------------------------|
+| Frontend    | Flutter, Dart                              |
+| Backend     | Firebase Auth, Firebase Firestore, Realtime DB |
+| Location    | Google Maps API, Geolocator, Geocoding     |
+| SMS & Alerts| background_sms, flutter_local_notifications |
+
+---
+
+
+
+##  Getting Started
+
+### Prerequisites
+
+- Flutter SDK
+- Firebase project (Android/iOS)
+- Google Maps API Key
+- Physical Android device for SMS testing
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/hersafety.git
+cd hersafety
+flutter pub get
+flutter run
